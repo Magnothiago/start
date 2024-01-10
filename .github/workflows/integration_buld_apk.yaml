@@ -1,9 +1,7 @@
 name: Integration build apk
 
 on:
-  push: 
-    branches: 
-      - develop
+  pull_request: 
 
 jobs:
   Flutter_Tests:
